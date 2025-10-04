@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Ladingpage from 'src/component/LadingPage'
+import Homepage from 'src/component/HomePage'
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <Routes>
-    <Route path="/" element={<LadingPage/>}></Route>
+    <Route path="/" element={<HomePage/>}></Route>
     </Routes>
     </>
   )
